@@ -16,12 +16,12 @@ function sayHiToGrandma(string){
   return "I can't hear you!"
 }
 function sayHiToGrandma(string){
-  var uppercase = 'HELLO'
+  var uppercase = string
   if (string.toUpperCase() === uppercase)
   return "YES INDEED!"
 }
 function sayHiToGrandma(string){
-  var mixedCase = 'Hi there!'
+  var mixedCase = string
   if (string.mixedCase() === mixedCase)
   return "I love you, too."
 }
