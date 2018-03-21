@@ -22,6 +22,7 @@ function sayHiToGrandma(string){
 }
 function sayHiToGrandma(string){
   var mixedCase = string
-  if (string.mixedCase() === mixedCase)
+  if (mixedCase.toLowerCase() === mixedCase)
+  if (mixedCase.toUpperCase() === mixedCase)
   return "I love you, too."
 }
